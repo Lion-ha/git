@@ -122,7 +122,7 @@ public class IpUtils {
     }
 
     public static void main(String[] args) throws Exception {
-        String ip = "220.248.12.158";
+        String ip = "220.248.12.40";
         IpUtils is = new IpUtils();
         String[] s = is.parseIp(ip);
         for (int i = 0; i < s.length; i++) {
